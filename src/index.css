@@ -1,11 +1,9 @@
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+
   overflow-x: hidden;
   max-width: center;
-  background-color: #f3eae3;
+  background-color: transparent;
 }
 
 code {
