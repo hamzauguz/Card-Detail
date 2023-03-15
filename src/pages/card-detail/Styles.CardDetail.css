@@ -1,11 +1,33 @@
-.left-carddetail {
-  margin: 0;
-  padding: 0;
-}
-
 .carddetail-body {
   text-align: center;
   background-image: url("../../images/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.card-detail-main {
+  display: flex;
+  flex-direction: row;
+  width: 73em;
+  height: 33em;
+}
+
+.front-card {
+  background-image: url("../../images/bg-card-front.png");
+  height: 245px;
+  width: 447px;
+  display: flex;
+  margin-left: -6em;
+}
+
+.back-card {
+  background-image: url("../../images/bg-card-back.png");
+  height: 245px;
+  width: 447px;
+}
+
+.cards-place {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

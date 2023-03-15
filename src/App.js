@@ -6,12 +6,14 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<CardDetail />} />
-        <Route path="/card-complete" element={<CardComplete />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="main">
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<CardDetail />} />
+          <Route path="/card-complete" element={<CardComplete />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 
