@@ -9,7 +9,19 @@ const CardDetail = () => {
   return (
     <div className="card-detail-main">
       <div className="cards-place">
-        <div id="front-card" className="front-card"></div>
+        <div id="front-card" className="front-card">
+          <div className="front-card-inside">
+            <div className="round-place">
+              <div className="full-rounded" />
+              <div className="entry-rounded" />
+            </div>
+            <div></div>
+            <div>
+              <div />
+              <div />
+            </div>
+          </div>
+        </div>
         <div id="back-card" className="back-card"></div>
       </div>
       <div>
