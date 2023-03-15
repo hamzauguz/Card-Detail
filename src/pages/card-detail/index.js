@@ -15,10 +15,12 @@ const CardDetail = () => {
               <div className="full-rounded" />
               <div className="entry-rounded" />
             </div>
-            <div></div>
-            <div>
-              <div />
-              <div />
+            <div className="front-card-bottom">
+              <span className="card-number">0000 0000 0000 0000</span>
+              <div className="namewithdate">
+                <span>JANE APPLESEED</span>
+                <span>00/00</span>
+              </div>
             </div>
           </div>
         </div>

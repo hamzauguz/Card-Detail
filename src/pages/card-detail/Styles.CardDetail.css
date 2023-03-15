@@ -16,8 +16,18 @@
   background-image: url("../../images/bg-card-front.png");
   height: 245px;
   width: 447px;
-  display: flex;
   margin-left: -6em;
+  position: relative;
+}
+.front-card-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 84%;
+  position: absolute;
+  top: 10%;
+  left: 8%;
 }
 
 .back-card {
@@ -38,10 +48,6 @@
   height: 3em;
   border-radius: 1.5em;
 }
-.front-card-inside {
-  margin: 2em;
-  width: 100%;
-}
 
 .entry-rounded {
   height: 1.3em;
@@ -55,4 +61,33 @@
   align-items: center;
   width: 5.5em;
   justify-content: space-between;
+}
+
+.namewithdate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.front-card-bottom {
+  height: 4.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-number {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  height: 100%;
+  text-align: start;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.22em;
+  opacity: 0.9;
 }
